@@ -1,7 +1,7 @@
 {
-  "name": "generic-api2",
+  "name": "opsphere-api",
   "version": "1.0.0",
-  "description": "Generic API for study",
+  "description": "API for an operations workspace with JWT authentication and PostgreSQL persistence.",
   "main": "app.ts",
   "author": "Gabriel Paolini de Miranda",
   "license": "MIT",
