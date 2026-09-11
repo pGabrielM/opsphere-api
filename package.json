@@ -9,7 +9,11 @@
     "migration:generate": "typeorm-ts-node-commonjs -d ./src/data-source.ts migration:generate ./src/migrations/default",
     "migration:run": "typeorm-ts-node-commonjs -d ./src/data-source.ts migration:run",
     "seed": "ts-node ./node_modules/typeorm-extension/dist/cli/index.js seed -d ./src/data-source.ts",
-    "dev": "nodemon"
+    "dev": "nodemon",
+    "build": "tsc",
+    "lint": "tsc --noEmit",
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "dependencies": {
     "bcrypt": "^5.1.0",
@@ -29,8 +33,11 @@
     "@types/bcrypt": "^5.0.0",
     "@types/cors": "^2.8.13",
     "@types/express": "^4.17.16",
+    "@types/jest": "^29.5.0",
     "@types/jsonwebtoken": "^9.0.1",
     "@types/node": "^18.11.18",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.0",
     "ts-node": "^10.9.1",
     "typescript": "^4.9.4"
   }
