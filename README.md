@@ -1,8 +1,8 @@
 # Opsphere API
 
 ![CI](https://github.com/pGabrielM/opsphere-api/actions/workflows/ci.yml/badge.svg)
-![TypeScript](https://img.shields.io/badge/TypeScript-4.9-blue?style=flat-square)
-![Node.js](https://img.shields.io/badge/Node.js-18%2B-339933?style=flat-square)
+![TypeScript](https://img.shields.io/badge/TypeScript-6-3178C6?style=flat-square)
+![Node.js](https://img.shields.io/badge/Node.js-22%2B-339933?style=flat-square)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-TypeORM-4169E1?style=flat-square)
 
 Backend for an internal operations workspace: a JWT-authenticated REST API that organizes
@@ -76,4 +76,4 @@ Every push/PR to `main` runs type-checking, tests and the production build via
 
 ## Stack
 
-TypeScript, Node.js, Express, TypeORM, PostgreSQL, JWT, bcrypt, Jest.
+TypeScript, Node.js, Express 5, TypeORM, PostgreSQL, JWT, bcrypt, Jest.
