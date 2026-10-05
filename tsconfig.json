@@ -1,25 +1,27 @@
 {
   "compilerOptions": {
-    "target": "ES2018",
-    "lib": ["es5", "es6", "ES2018"],
+    "target": "ES2023",
+    "lib": ["ES2023"],
+    "module": "node16",
+    "moduleResolution": "node16",
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    "module": "commonjs",
-    "moduleResolution": "node",
+    "types": ["node", "jest"],
     "typeRoots": ["./node_modules/@types", "./src/@types"],
     "resolveJsonModule": true,
     "allowJs": true,
     "outDir": "./dist",
+    "rootDir": "./src",
+    "isolatedModules": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
-    "noImplicitAny": true,
     "strictPropertyInitialization": false,
     "skipLibCheck": true
   },
   "include": ["src/**/*"],
-	"exclude": ["node_modules", "dist"],
-	"ts-node": {
-		"files": true
-	}
+  "exclude": ["node_modules", "dist"],
+  "ts-node": {
+    "files": true
+  }
 }
