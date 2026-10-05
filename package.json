@@ -28,7 +28,7 @@
     "pg": "^8.23.1",
     "reflect-metadata": "^0.2.2",
     "typeorm": "^0.3.31",
-    "typeorm-extension": "^3.9.0"
+    "typeorm-extension": "^4.2.0"
   },
   "devDependencies": {
     "@types/bcrypt": "^6.0.0",
